@@ -1,14 +1,3 @@
-Thanks for the clarification! Since you have an `index.js` in both `components/` and `contexts/`, it's a good idea to update the `README.md` to reflect **barrel file usage** — which simplifies imports like:
-
-```js
-import { TodoForm, TodoItem } from './components';
-import { TodoProvider } from './contexts';
-```
-
----
-
-### ✅ Here's the updated `README.md` (with index.js details):
-
 ```markdown
 # 📝 Todo Manager App
 
