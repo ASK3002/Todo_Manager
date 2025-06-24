@@ -1,5 +1,3 @@
-
-```markdown
 # 📝 Todo Manager App
 
 A simple, efficient, and clean React Todo application with:
@@ -9,13 +7,7 @@ A simple, efficient, and clean React Todo application with:
 - 💾 Persistent storage with `localStorage`
 - 🌙 Dark mode compatible (via Tailwind's `class` strategy)
 
----
 
-## 📸 Demo
-
-![Todo Manager Screenshot](screenshot.png) <!-- Replace with actual screenshot path -->
-
----
 
 ## 🚀 Features
 
@@ -29,8 +21,6 @@ A simple, efficient, and clean React Todo application with:
 - ⚡ Instant UI updates with React Hooks
 - 🔄 Clean imports via `index.js` (barrel files)
 
----
-
 ## 🛠️ Tech Stack
 
 - **React** (with Hooks)
@@ -39,12 +29,9 @@ A simple, efficient, and clean React Todo application with:
 - **localStorage**
 - **Vite** (for fast dev)
 
----
-
 ## 📂 Folder Structure
 
 ```
-
 📁 src
 ├── 📁 components
 │   ├── TodoForm.jsx
@@ -57,17 +44,14 @@ A simple, efficient, and clean React Todo application with:
 ├── App.css
 ├── main.jsx
 └── index.html
-
-````
+```
 
 ✅ This allows clean imports like:
 
 ```js
 import { TodoForm, TodoItem } from './components';
 import { TodoProvider } from './contexts';
-````
-
----
+```
 
 ## 🧑‍💻 Getting Started
 
@@ -92,16 +76,12 @@ npm run dev
 
 Then open [http://localhost:5173](http://localhost:5173)
 
----
-
 ## ✨ Example
 
-> Write a todo → press **Enter** or click **Add**
-> Click ✏️ to edit, 📁 to save
-> Check ✅ to mark done
+> Write a todo → press **Enter** or click **Add**  
+> Click ✏️ to edit, 📁 to save  
+> Check ✅ to mark done  
 > Watch the efficiency meter update below
-
----
 
 ## 🔧 Enhancements Ideas
 
@@ -110,26 +90,10 @@ Then open [http://localhost:5173](http://localhost:5173)
 * [ ] Sync with Firebase for cross-device storage
 * [ ] Add animations (Framer Motion)
 
----
-
 ## 🧑‍🎓 Author
 
 Made with ❤️ by [Ayush Singh Kaushik](https://ayushkaushik.dev)
 
----
-
 ## 📄 License
 
 MIT License © 2025 Ayush Singh Kaushik
-
-```
-
----
-
-✅ You can now paste this directly into your project as `README.md`. Let me know if you'd like:
-- Shields/badges for GitHub, Netlify, etc.
-- A `.gif` demo section
-- Deployment guide (Vercel/Netlify)
-
-I'm happy to help polish it even further!
-```
